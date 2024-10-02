@@ -1,0 +1,147 @@
+body {
+  background-color: #f4f4f4;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+h2, h4, h5 {
+  color: #333;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333333;
+
+}
+
+h4 {
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #dc0a0a;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  font-family: "Raleway";
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+ul li:before {
+  content: '■';
+  color: #D32F2F;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ref-txt-red{
+  font-size: 12px;
+  color: #dc0a0a;
+  font-weight: 800;
+  font-style: italic;
+}
+
+img {
+  border: 5px solid #333;
+}
+
+hr {
+  border-top: 1px solid #333;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.skills ul li {
+  display: flex;
+  align-items: center;
+}
+
+.skills ul li::after {
+  content: "";
+  flex-grow: 1;
+  height: 5px;
+  background-color: #ccc;
+  margin-left: 10px;
+}
+
+.skills ul li span {
+  width: 70%;
+  height: 5px;
+  background-color: #D32F2F;
+  display: block;
+}
+
+.languages ul li span {
+  width: 95%;
+  height: 10px;
+  background-color: #4CAF50;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.skill-container {
+  width: 300px;
+  margin: 20px;
+}
+
+.skill {
+  margin: 20px 0;
+  position: relative;
+}
+
+.skill-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 10px;
+  position: relative;
+}
+
+.skill-level {
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Remove rounded corners */
+.skill-bar, .skill-level {
+  border-radius: 0;
+}
+
+/* Styling for slider-like handle */
+.slider {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: -5px;
+}
