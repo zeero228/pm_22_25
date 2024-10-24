@@ -13,144 +13,292 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
 </head>
 <body>
 
-<div class="container mt-5">
+<div class="container" >
     <div class="row">
         <!-- Left Column -->
         <div class="col-md-5 bg-white p-3 border-end">
             <div class="row">
                 <!-- Верхня частина, поділена на дві вертикальні колонки -->
-                <div class="col-md-6 bg-white p-3">
-                    <h2 class="text-left mt-3" style="font-size: 60px; font-weight: 900">GARY T.</h2>
-                    <h2 style="font-size: 60px; font-weight: 400">WALTON</h2>
-                    <h4 class="text-left">Graphic & Web Designer</h4>
-                    <hr>
-                    <div class="text-center">
-                        <img src="\img\photo.jpg" alt="Profile Picture" class="img-fluid" style="width: 250px; border-color:#D32F2F ">
+                <div class="col-md-6 bg-white p-3" style="flex-direction:column;display: flex;justify-content: space-between">
+                    <div class="name_block">
+                        <h1 style="font-size: 60px;font-weight: 900">GARY T.</h1>
+                        <h2 style="font-size: 60px;font-weight: 300">WALTON</h2>
+                        <h4 class="under_name">Graphic & Web Designer</h4>
+                        <div class = "title_line"></div>
+                    </div>
+
+                    <div class="img_border">
+                        <img src="\img\photo.jpg" alt="Profile Picture" class="img-fluid" style="width: 230px">
                     </div>
                 </div>
                 <div class="col-md-6 bg-white p-3">
-                    <h5>About Me</h5>
-                    <hr>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h5 class = "title">About Me</h5>
+                    <div class = "title_line"></div>
+                    <p style="color: #333">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <p style = "text-align: left"><strong>"Lorem Ipsum is simply dummy text of the printing and typesetting industry."</strong></p>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-telephone"></i> +1-718-310-5588</li>
-                        <li><i class="bi bi-envelope"></i> www.yourwebsite.com</li>
-                        <li><i class="bi bi-geo-alt"></i> 796 Prudence Street, Lincoln Park, MI 48146</li>
+                    <ul class="contact-info">
+                        <li><i class="bi bi-telephone-fill"></i> +1-718-310-5588</li>
+                        <li><i class="bi bi-globe2"></i> www.yourwebsite.com</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> 796 Prudence Street, Lincoln Park, MI 48146</li>
                     </ul>
 
-                    <h5>References</h5>
-                    <hr>
-                    <ul class="list-unstyled">
-                        <li><strong>Darwin B. Magana</strong><br>
-                            <h4 class="ref-txt-red">2813 Shobe Lane Mancos, CO.</h4>
-                            Tel: +1-970-533-3393
-                            Email: www.yourwebsite.com
-                        </li>
-                        <li><strong>Robert J. Belvin</strong><br>
-                            <h4 class="ref-txt-red">2119 Fairfax Drive Newark, NJ.</h4>
-                            Tel: +1-908-670-5839
-                            Email: www.yourwebsite.com
-                        </li>
-                    </ul>
+                    <h5 class = "title">References</h5>
+                    <div class = "title_line"></div>
+                    <div class="under_line"></div>
+                    <div class="contact-list">
+                        <div class="list-item">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="info" style="line-height: 5px;">
+                                <h3 style="font-size: 15px" class = "job_position"><b>DARWIN B. MAGANA</b></h3>
+                                <div class="experience_text">
+                                    <p><span class="address">2813 Shobe Lane Mancos, CO.</span></p>
+                                    <p>Tel: +1-970-533-3393</p>
+                                    <p>Email: www.yourwebsite.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-item">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="info" style="line-height: 5px;">
+                                <h3 style="font-size: 15px" class = "job_position"><b>ROBERT J. BELVIN</b></h3>
+                                <div class="experience_text">
+                                    <p><span class="address">2119 Fairfax Drive Newark, NJ.</span></p>
+                                    <p>Tel: +1-908-987-5103</p>
+                                    <p>Email: www.yourwebsite.com</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-md-12 bg-white p-3">
-                    <h5>Job Experience</h5>
-                    <hr>
-                    <ul>
-                        <li><strong>Senior Web Designer</strong> - Creative Agency, Chicago (2021-Present)</li>
-                        <li><strong>Graphic Designer</strong> - Creative Market, UK (2018-2021)</li>
-                        <li><strong>Marketing Manager</strong> - Marketing Agency, UK (2016-2018)</li>
-                        <li><strong>Junior Web Designer</strong> - Creative Market, Chicago (2013-2016)</li>
-                    </ul>
+                    <h5  class = "title">Job Experience</h5>
+                    <div class = "title_line"></div>
+                    <div class = "experience_list">
+                        <div class = "list-item" style="">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="info">
+                                <p class = "experience_work_place">Creative Agency</p>
+                                <p style="color: #333">Chicago</p>
+                                <div class = "position_and_year">
+                                    <h5  class = "job_position" ><span class="tooltiptext">Нажміть для детальнішої інформації</span><b>Senior Web Designer</b></h5>
+                                    <p class = "year_work">2021-Present</p>
+                                </div>
+                                <div class = "experience_text">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "list-item" style="">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="info">
+                                <p class = "experience_work_place">Creative Market</p>
+                                <p style="color: #333">UK</p>
+                                <div class = "position_and_year">
+                                    <h5 class = "job_position" ><span class="tooltiptext">Нажміть для детальнішої інформації</span><b>Senior Web Designer</b></h5>
+                                    <p class = "year_work">2018-2021</p>
+                                </div>
+                                <div class = "experience_text">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "list-item" style="">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="info">
+                                <p class = "experience_work_place">Marketing Agency</p>
+                                <p style="color: #333">UK</p>
+                                <div class = "position_and_year">
+                                    <h5 class = "job_position"><span class="tooltiptext">Нажміть для детальнішої інформації</span><b>Marketing Manager</b></h5>
+                                    <p class = "year_work">2016-2018</p>
+                                </div>
+                                <div class = "experience_text">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "list-item" style="">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="info">
+                                <p class = "experience_work_place" >Creative Market</p>
+                                <p style="color: #333">Chicago</p>
+                                <div class = "position_and_year">
+                                    <h5 class = "job_position"><span class="tooltiptext">Нажміть для детальнішої інформації</span><b>Junior Web Designer</b></h5>
+                                    <p class = "year_work">2013-2016</p>
+                                </div>
+                                <div class = "experience_text">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Right Column -->
-        <div class="col-md-4 bg-white p-3">
-            <h5>Education</h5>
-            <ul>
-                <li><strong>Master's Degree</strong> - Stanford University (2021-2023)</li>
-                <li><strong>Bachelor's Degree</strong> - Chicago University (2007-2010)</li>
-            </ul>
-            <hr>
-            <h5>Skills</h5>
-            <hr>
+        <div class="col-md-4 p-3" style="background-color: #f0f0f0">
+            <h5  class = "title">Education</h5>
+            <div class = "title_line"></div>
+
+            <div class = "education_list">
+                <div class = "list-item" style="">
+                    <div class="line"></div>
+                    <div class="square"></div>
+                    <div class="info">
+                        <p class = "experience_work_place">Stanford University</p>
+                        <h5 style="font-size: 18px"><b>Master Degree</b></h5>
+                        <p class = "year_work">2021-2023</p>
+                        <div class = "experience_text">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "list-item" style="">
+                    <div class="line"></div>
+                    <div class="square"></div>
+                    <div class="info">
+                        <p class = "experience_work_place">Chicago University</p>
+                        <h5 style="font-size: 18px"><b>Bachelor's Degree</b></h5>
+                        <p class = "year_work">2007-2010</p>
+                        <div class = "experience_text">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class = "title">Skills</h5>
+            <div class = "title_line"></div>
 
             <div class="skill-container">
                 <div class="skill">
-                    <div class="skill-name">Adobe Photoshop</div>
+                    <h5 style="text-transform: none;"><b>Adobe Photoshop</b></h5>
                     <div class="skill-bar">
                         <div class="skill-level photoshop" style="width: 80%"></div>
                         <div class="slider" style="left: 80%"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-name">Adobe Illustrator</div>
+                    <h5 style="text-transform: none;"><b>Adobe Illustrator</b></h5>
                     <div class="skill-bar">
                         <div class="skill-level" style="width: 60%"></div>
                         <div class="slider" style="left: 60%"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-name">Microsoft Word</div>
+                    <h5 style="text-transform: none;"><b>Microsoft Word</b></h5>
                     <div class="skill-bar">
-                        <div class="skill-level" style="width: 90%"></div>
-                        <div class="slider" style="left: 90%"></div>
+                        <div class="skill-level" style="width: 78%"></div>
+                        <div class="slider" style="left: 78%"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-name">Microsoft PowerPoint</div>
+                    <h5 style="text-transform: none;"><b>Microsoft PowerPoint</b></h5>
                     <div class="skill-bar">
-                        <div class="skill-level" style="width: 70%"></div>
-                        <div class="slider" style="left: 70%"></div>
+                        <div class="skill-level" style="width: 65%"></div>
+                        <div class="slider" style="left: 65%"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-name">HTML-S/CSS-3</div>
+                    <h5 style="text-transform: none;"><b>HTML-S/CSS-3</b></h5>
                     <div class="skill-bar">
-                        <div class="skill-level" style="width: 50%"></div>
-                        <div class="slider" style="left: 50%"></div>
+                        <div class="skill-level" style="width: 73%"></div>
+                        <div class="slider" style="left: 73%"></div>
                     </div>
                 </div>
             </div>
 
-            <ul>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Microsoft Word</li>
-                <li>Microsoft PowerPoint</li>
-                <li>HTML/CSS</li>
-            </ul>
+            <h5 class = "title">Hobbies</h5>
+            <div class = "title_line"></div>
 
-            <h5>Hobbies</h5>
-            <hr>
-            <ul>
-                <li>Book Reading</li>
-                <li>Traveling</li>
-                <li>Playing Chess</li>
-                <li>Painting</li>
-                <li>Graphic Design</li>
-            </ul>
+            <div class="skill-container">
+                <div class="skill">
+                    <h5 style="text-transform: none;"><b>Book Reading</b></h5>
+                    <div class="skill-bar">
+                        <div class="skill-level photoshop" style="width: 80%"></div>
+                        <div class="slider" style="left: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h5 style="text-transform: none;"><b>Traveling</b></h5>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%"></div>
+                        <div class="slider" style="left: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h5 style="text-transform: none;"><b>Playing Chess</b></h5>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 78%"></div>
+                        <div class="slider" style="left: 78%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h5 style="text-transform: none;"><b>Painting</b></h5>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%"></div>
+                        <div class="slider" style="left: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h5 style="text-transform: none;"><b>Graphic Design</b></h5>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 73%"></div>
+                        <div class="slider" style="left: 73%"></div>
+                    </div>
+                </div>
+            </div>
 
-            <h5>Languages</h5>
-            <hr>
-            <ul>
-                <li>English: 95%</li>
-                <li>German: 60%</li>
-                <li>Spanish: 45%</li>
-            </ul>
+            <h5 class = "title">Languages</h5>
+            <div class = "title_line"></div>
+            <div class="progress_bars">
+                <div class="progress-circle" data-percent="95">
+                    <div class="progress-text">
+                        <h1 class="procent">95%</h1>
+                        <h3 class="procent_text">English</h3>
+                    </div>
+                </div>
+
+                <div class="progress-circle" data-percent="60">
+                    <div class="progress-text">
+                        <h1 class="procent">60%</h1>
+                        <h3 class="procent_text">German</h3>
+                    </div>
+                </div>
+
+                <div class="progress-circle" data-percent="45">
+                    <div class="progress-text">
+                        <h1 class="procent">45%</h1>
+                        <h3 class="procent_text">Spanish</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
